@@ -1,1 +1,1 @@
-export declare const serve: (port: string, filename: string, dir: string) => Promise<void>;
+export declare const serve: (port: string, filename: string, dir: string, useProxy: boolean) => Promise<void>;
